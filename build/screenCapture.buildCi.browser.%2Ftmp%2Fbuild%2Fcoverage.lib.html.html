@@ -195,7 +195,7 @@
     <h1>Code coverage report for <span class="entity">node-npmtest-retire/node_modules/retire/lib/repo.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">13.73% <small>(7 / 51)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">7.84% <small>(4 / 51)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
         Branches: <span class="metric">0% <small>(0 / 20)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -204,7 +204,7 @@
         Functions: <span class="metric">0% <small>(0 / 8)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">14% <small>(7 / 50)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">8% <small>(4 / 50)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
@@ -293,31 +293,11 @@
 79
 80
 81</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -332,6 +312,26 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -359,15 +359,15 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -380,7 +380,7 @@ var utils   = require('./utils'),
     log     = require('./utils').log,
     forward   = require('../lib/utils').forwardEvent,
 	retire  = require('./retire');
-var emitter = require('events').EventEmitter;
+<span class="cstat-no" title="statement not covered">var emitter = require('events').EventEmitter;</span>
 &nbsp;
 &nbsp;
 <span class="fstat-no" title="function not covered">function loadJson(url, options) {</span>
@@ -439,7 +439,7 @@ var emitter = require('events').EventEmitter;
 <span class="cstat-no" title="statement not covered">    return events;</span>
 }
 &nbsp;
-exports.loadrepository = <span class="fstat-no" title="function not covered">function(repoUrl, options) {</span>
+<span class="cstat-no" title="statement not covered">exports.loadrepository = <span class="fstat-no" title="function not covered">function(repoUrl, options) {</span></span>
 <span class="cstat-no" title="statement not covered">    options = utils.extend(options, { process : retire.replaceVersion });</span>
 <span class="cstat-no" title="statement not covered">    if (options.nocache) {</span>
 <span class="cstat-no" title="statement not covered">        return loadJson(repoUrl, options);</span>
@@ -447,7 +447,7 @@ exports.loadrepository = <span class="fstat-no" title="function not covered">fun
 <span class="cstat-no" title="statement not covered">    return loadFromCache(repoUrl, options.cachedir, options);</span>
 };
 &nbsp;
-exports.loadrepositoryFromFile = <span class="fstat-no" title="function not covered">function(filepath, options) {</span>
+<span class="cstat-no" title="statement not covered">exports.loadrepositoryFromFile = <span class="fstat-no" title="function not covered">function(filepath, options) {</span></span>
 <span class="cstat-no" title="statement not covered">    options = utils.extend(options, { process : retire.replaceVersion });</span>
 <span class="cstat-no" title="statement not covered">	return loadJsonFromFile(filepath, options);</span>
 };
@@ -456,7 +456,7 @@ exports.loadrepositoryFromFile = <span class="fstat-no" title="function not cove
 </tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 18 2017 01:53:46 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Wed Apr 26 2017 04:46:06 GMT+0000 (UTC)</div>
 </div>
 
 
