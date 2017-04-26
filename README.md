@@ -1,4 +1,7 @@
-# test coverage for  [retire (v1.2.12)](https://github.com/RetireJS/retire.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-retire.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-retire) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-retire.svg)](https://travis-ci.org/npmtest/node-npmtest-retire)
+# npmtest-retire
+
+#### basic test coverage for  [retire (v1.2.12)](https://github.com/RetireJS/retire.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-retire.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-retire) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-retire.svg)](https://travis-ci.org/npmtest/node-npmtest-retire)
+
 #### Retire is a tool for detecting use of vulnerable libraries
 
 [![NPM](https://nodei.co/npm/retire.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/retire)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-retire/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-retire/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-retire/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-retire/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-retire/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-retire/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-retire/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-retire/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-retire/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-retire/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-retire/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-retire/build/coverage.html/index.html)
 
